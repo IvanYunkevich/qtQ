@@ -46,6 +46,14 @@ Window {
                         model: ["Male", "Female"]
                     }
                 }
+                
+                states: [
+                   State {
+                   name: "choose"
+                   PropertyChanges { target: _meeting; color: "lightcyan"}
+                   when: _sex.currentText === "Male"
+                       }
+                ]
 
                 TextField {
                     id: _age
