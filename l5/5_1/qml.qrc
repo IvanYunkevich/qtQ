@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>shapeGenerator.js</file>
+    </qresource>
+</RCC>
